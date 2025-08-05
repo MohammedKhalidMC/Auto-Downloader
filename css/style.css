@@ -79,6 +79,14 @@ button:hover {
   transform: scale(1.03);
 }
 
+p {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: none;
+  border-radius: 12px;
+}
+
 /* Responsive: Mobile tweaks */
 @media (max-width: 480px) {
   .container {
