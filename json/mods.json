@@ -1,0 +1,28 @@
+{
+  "mods": [
+    { "name": "sodium"},
+    { "name": "lithium"},
+    { "name": "modmenu"},
+    { "name": "appleskin"},
+    { "name": "axiom"},
+    { "name": "continuity"},
+    { "name": "controlify"},
+    { "name": "emotecraft"},
+    { "name": "entity-model-features"},
+    { "name": "entitytexturefeatures"},
+    { "name": "esf"},
+    { "name": "fabric-api"},
+    { "name": "fabric-language-kotlin"},
+    { "name": "flashback"},
+    { "name": "freecam"},
+    { "name": "fullbright"},
+    { "name": "iris"},
+    { "name": "litematica"},
+    { "name": "malilib"},
+    { "name": "simple-voice-chat"},
+    { "name": "worldedit"},
+    { "name": "xaeros-world-map"},
+    { "name": "yacl"},
+    { "name": "zoomify"}
+  ]
+}

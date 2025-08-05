@@ -2,7 +2,7 @@ function getMods() {
   const urls = [];
   const ver = document.getElementById("selectVersion");
 
-  fetch("https://mohammedkhalidmc.github.io/Nothing-Special/mods.json")
+  fetch("https://mohammedkhalidmc.github.io/Auto-Downloader/json/mods.json")
     .then(res => res.json())
     .then(data => {
       const promises = data.mods.map(mod => {
