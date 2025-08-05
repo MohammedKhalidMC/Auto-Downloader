@@ -18,7 +18,7 @@ function getMods() {
               console.warn(`⚠️ No versions found for ${mod.name} (${ver.value})`);
               const warning = document.createElement("p");
               warning.textContent = `⚠️ No versions found for ${mod.name} (${ver.value})`;
-              document.getElementById("container").appendChild(warning);
+              document.body.appendChild(warning);
               return;
             }
 
