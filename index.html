@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Auto-Download</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.0/dist/jszip.min.js"></script>
+    <script src="./javascript/download.js"></script>
+
+    <meta property="og:title" content="Mod Auto Downloader" />
+    <meta property="og:description" content="Select your version and auto-download all required Minecraft mods." />
+    <meta property="og:image" content="https://yourusername.github.io/assets/discord-logo.png" />
+    <meta property="og:url" content="https://yourusername.github.io/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mod Auto Downloader" />
+    <meta name="twitter:description" content="Select your version and auto-download all required Minecraft mods." />
+    <meta name="twitter:image" content="https://yourusername.github.io/assets/discord-logo.png" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <h1>Get Minecraft Client-Side Mods</h1>
+      <select name="selectVersion" id="selectVersion">
+        <option value="1.21.8">1.21.8</option>
+        <option value="1.21.7">1.21.7</option>
+        <option value="1.21.6">1.21.6</option>
+        <option value="1.21.5">1.21.5</option>
+        <option value="1.21.4">1.21.4</option>
+        <option value="1.21.3">1.21.3</option>
+        <option value="1.21.2">1.21.2</option>
+        <option value="1.21.1">1.21.1</option>
+        <option value="1.21.0">1.21</option>
+      </select>
+      <button onclick="getMods()">Submit For Download Link</button>
+    </div>
+  </body>
+</html>
